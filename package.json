@@ -1,0 +1,13 @@
+{
+  "name": "testmanagertests",
+  "version": "1.0.0",
+  "description": "test manager e2e and api tests",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Holger Mayer",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}

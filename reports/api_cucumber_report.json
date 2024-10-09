@@ -1,0 +1,51 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "beispiel-feature;beispiel-szenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Beispiel Szenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "ich öffne die Startseite",
+            "match": {
+              "location": "src/test/api/step_definitions/example.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2352974042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "die Seitentitel sollte \"Example Domain\" sein",
+            "match": {
+              "location": "src/test/api/step_definitions/example.steps.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6648375,
+              "error_message": "Error: Erwarteter Titel: Example Domain, aber gefunden: Google\n    at World.<anonymous> (/Volumes/SSDExtern/Entwicklung/TestManager/TestManagerTests/src/test/api/step_definitions/example.steps.js:14:11)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "beispiel-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Beispiel Feature",
+    "tags": [],
+    "uri": "features/example.feature"
+  }
+]

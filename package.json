@@ -1,13 +1,19 @@
 {
   "name": "testmanagertests",
   "version": "1.0.0",
-  "description": "test manager e2e and api tests",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+   "e2e-test": "cucumber-js --profile e2e",
+    "api-test": "cucumber-js --profile api"
+  },
   "author": "Holger Mayer",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.47.2",
-    "@types/node": "^22.7.4"
+    "@cucumber/cucumber": "^11.0.1",
+    "playwright": "^1.48.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.0"
   }
 }

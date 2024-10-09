@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "beispiel-feature;beispiel-szenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Beispiel Szenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "ich öffne die Startseite",
+            "match": {
+              "location": "src/test/e2e/step_definitions/example.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1682163333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "die Seitentitel sollte \"Example Domain\" sein",
+            "match": {
+              "location": "src/test/e2e/step_definitions/example.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67066957
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "beispiel-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Beispiel Feature",
+    "tags": [],
+    "uri": "features/example.feature"
+  }
+]

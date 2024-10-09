@@ -15,25 +15,37 @@
             "line": 5,
             "name": "ich öffne die Startseite",
             "match": {
-              "location": "src/test/api/step_definitions/example.steps.js:5"
+              "location": "src/test/api/step_definitions/playwright/example.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2352974042
+              "duration": 1270743416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ich nichts mache und nur logge",
+            "match": {
+              "location": "src/test/api/step_definitions/common/common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033167
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 7,
             "name": "die Seitentitel sollte \"Example Domain\" sein",
             "match": {
-              "location": "src/test/api/step_definitions/example.steps.js:11"
+              "location": "src/test/api/step_definitions/playwright/example.steps.js:11"
             },
             "result": {
-              "status": "failed",
-              "duration": 6648375,
-              "error_message": "Error: Erwarteter Titel: Example Domain, aber gefunden: Google\n    at World.<anonymous> (/Volumes/SSDExtern/Entwicklung/TestManager/TestManagerTests/src/test/api/step_definitions/example.steps.js:14:11)"
+              "status": "passed",
+              "duration": 98770166
             }
           }
         ],

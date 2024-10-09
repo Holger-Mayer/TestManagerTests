@@ -15,24 +15,37 @@
             "line": 5,
             "name": "ich öffne die Startseite",
             "match": {
-              "location": "src/test/e2e/step_definitions/example.steps.js:5"
+              "location": "src/test/e2e/step_definitions/playwright/example.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1682163333
+              "duration": 1279920667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ich nichts mache und nur logge",
+            "match": {
+              "location": "src/test/e2e/step_definitions/common/common.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258125
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 7,
             "name": "die Seitentitel sollte \"Example Domain\" sein",
             "match": {
-              "location": "src/test/e2e/step_definitions/example.steps.js:11"
+              "location": "src/test/e2e/step_definitions/playwright/example.steps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 67066957
+              "duration": 87348666
             }
           }
         ],
